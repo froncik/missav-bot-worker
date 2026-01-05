@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Testing
+coverage/
+
+# Temp files
+*.tmp
+*.temp

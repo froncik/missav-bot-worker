@@ -1,0 +1,23 @@
+# 环境变量配置
+# 复制此文件为 .dev.vars 并填入你的配置
+
+TELEGRAM_BOT_TOKEN=your-bot-token
+TELEGRAM_BOT_USERNAME=YourBotUsername
+MISSAV_BASE_URL=https://missav.ai
+JAVNJINJA_BASE_URL=https://javninja.com
+MISSAV_CRAWL_INTERVAL=900000
+CRAWLER_ENABLED=true
+CRAWLER_INITIAL_PAGES=2
+MISSAV_USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+# 爬虫开关
+MISSAV_ENABLED=true
+JAVNJINJA_ENABLED=true
+
+# 代理配置（可选）
+# TELEGRAM_PROXY_ENABLED=false
+# TELEGRAM_PROXY_HOST=127.0.0.1
+# TELEGRAM_PROXY_PORT=7890
+
+# 日志级别
+# LOG_LEVEL=DEBUG
