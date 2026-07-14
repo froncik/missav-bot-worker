@@ -1,21 +1,22 @@
 {
-  "name": "missav-bot-worker",
+  "name": "missav-bot-render",
   "version": "1.0.0",
-  "description": "MissAV Telegram Bot based on Cloudflare Worker",
-  "main": "src/index.js",
+  "description": "MissAV Telegram Bot for Render.com",
+  "main": "render-server.js",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "test": "jest"
+    "start": "node render-server.js",
+    "dev": "node render-server.js"
   },
   "dependencies": {
-    "@cloudflare/workers-types": "^4.20240117.0",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2",
+    "node-cron": "^3.0.2",
     "html-entities": "^2.5.2",
-    "iconv-lite": "^0.6.3"
+    "iconv-lite": "^0.6.3",
+    "node-fetch": "^2.7.0",
+    "dotenv": "^16.3.1"
   },
-  "devDependencies": {
-    "@cloudflare/wrangler": "^1.21.0",
-    "jest": "^29.7.0",
-    "wrangler": "^3.24.0"
+  "engines": {
+    "node": "18.x"
   }
 }
